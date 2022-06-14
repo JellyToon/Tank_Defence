@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Code">
+      <UniqueIdentifier>{96984bdf-7c3d-4cbf-96fc-e846ebb06595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Camera">
+      <UniqueIdentifier>{3e8ddff0-bed4-4283-804f-0166505fe9f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Collision">
+      <UniqueIdentifier>{38de771b-e65b-427f-add0-6bbaaa02c1cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\SkyBox">
+      <UniqueIdentifier>{02133703-0aea-4a22-90e8-b9f92ee53e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Shader">
+      <UniqueIdentifier>{aba13499-6fdd-446a-a4b3-98f3b898032c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Shader\Color">
+      <UniqueIdentifier>{4fb17deb-6159-44a6-99f0-daa26f21d687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Shader\texture">
+      <UniqueIdentifier>{ee34105e-e881-4e72-96b2-641db3b7926f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Model">
+      <UniqueIdentifier>{710b4da0-3e0f-41e5-b4a2-22ec3f32a723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Graphics">
+      <UniqueIdentifier>{709dc23f-f292-4d29-a4cb-38eadbe67546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\light">
+      <UniqueIdentifier>{e38ebefe-8d13-41b9-9591-fe254c180fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\System">
+      <UniqueIdentifier>{87922130-8817-4abe-bd30-60ab29c3fb6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Shader\light">
+      <UniqueIdentifier>{853bf05d-b6dc-481b-9a26-1ca8c56cde9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Texture">
+      <UniqueIdentifier>{6f5c041b-3bcd-4d52-b485-02ea39d82694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Input">
+      <UniqueIdentifier>{81577feb-0f6b-4e90-8e74-eef92189350c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\D3d">
+      <UniqueIdentifier>{a7a13f09-b9e0-474d-b439-a410046efd0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Timer">
+      <UniqueIdentifier>{7ad26a52-280c-44d2-854a-02b0d605d4c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\FPS">
+      <UniqueIdentifier>{6220bb4c-3aa8-4f92-97d3-7c97de3f397f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Shader\Font">
+      <UniqueIdentifier>{d3b1156f-7275-4345-bf22-04f76603daf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ps,vs">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Code\Font">
+      <UniqueIdentifier>{ced9099c-7d0f-4cc5-83cd-2950c7057b56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Text">
+      <UniqueIdentifier>{5bcd489a-4ded-4e00-9a87-f04ec48974a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\CPU">
+      <UniqueIdentifier>{6f6820de-3f4c-421f-a10d-b01b37712a69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Sound">
+      <UniqueIdentifier>{65127a42-29e2-4fa4-b8ea-1bd06cb5b22b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Particle">
+      <UniqueIdentifier>{9a394fcf-552d-4520-a68f-05910fd6ca0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Billboard">
+      <UniqueIdentifier>{fab82a35-a460-42c4-92a1-013545e3beac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Bitmap">
+      <UniqueIdentifier>{3e30e76d-77c3-44d3-8c5c-c3dfce236bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Shader\Particle">
+      <UniqueIdentifier>{89abfa88-8d10-4b81-a3b1-104866054a49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Collision.h">
+      <Filter>Code\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>Code\SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraclass.h">
+      <Filter>Code\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="colorshaderclass.h">
+      <Filter>Code\Shader\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="textureshaderclass.h">
+      <Filter>Code\Shader\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="modelclass.h">
+      <Filter>Code\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicsclass.h">
+      <Filter>Code\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="lightclass.h">
+      <Filter>Code\light</Filter>
+    </ClInclude>
+    <ClInclude Include="systemclass.h">
+      <Filter>Code\System</Filter>
+    </ClInclude>
+    <ClInclude Include="lightshaderclass.h">
+      <Filter>Code\Shader\light</Filter>
+    </ClInclude>
+    <ClInclude Include="textureclass.h">
+      <Filter>Code\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="inputclass.h">
+      <Filter>Code\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dclass.h">
+      <Filter>Code\D3d</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXTex.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignedAllocationPolicy.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerClass.h">
+      <Filter>Code\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="FpsClass.h">
+      <Filter>Code\FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="FontShaderClass.h">
+      <Filter>Code\Shader\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FontClass.h">
+      <Filter>Code\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="TextClass.h">
+      <Filter>Code\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="CpuClass.h">
+      <Filter>Code\CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundClass.h">
+      <Filter>Code\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Code\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Billboard.h">
+      <Filter>Code\Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="bitmapclass.h">
+      <Filter>Code\Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleShaderClass.h">
+      <Filter>Code\Shader\Particle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Code\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Code\SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraclass.cpp">
+      <Filter>Code\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="colorshaderclass.cpp">
+      <Filter>Code\Shader\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="textureshaderclass.cpp">
+      <Filter>Code\Shader\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="modelclass.cpp">
+      <Filter>Code\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicsclass.cpp">
+      <Filter>Code\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="lightclass.cpp">
+      <Filter>Code\light</Filter>
+    </ClCompile>
+    <ClCompile Include="systemclass.cpp">
+      <Filter>Code\System</Filter>
+    </ClCompile>
+    <ClCompile Include="lightshaderclass.cpp">
+      <Filter>Code\Shader\light</Filter>
+    </ClCompile>
+    <ClCompile Include="textureclass.cpp">
+      <Filter>Code\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="inputclass.cpp">
+      <Filter>Code\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dclass.cpp">
+      <Filter>Code\D3d</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerClass.cpp">
+      <Filter>Code\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="FpsClass.cpp">
+      <Filter>Code\FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="FontShaderClass.cpp">
+      <Filter>Code\Shader\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FontClass.cpp">
+      <Filter>Code\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="TextClass.cpp">
+      <Filter>Code\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="CpuClass.cpp">
+      <Filter>Code\CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundClass.cpp">
+      <Filter>Code\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Code\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Billboard.cpp">
+      <Filter>Code\Billboard</Filter>
+    </ClCompile>
+    <ClCompile Include="bitmapclass.cpp">
+      <Filter>Code\Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleShaderClass.cpp">
+      <Filter>Code\Shader\Particle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\texture.vs">
+      <Filter>ps,vs</Filter>
+    </None>
+    <None Include="data\color.ps">
+      <Filter>ps,vs</Filter>
+    </None>
+    <None Include="data\color.vs">
+      <Filter>ps,vs</Filter>
+    </None>
+    <None Include="data\light.ps">
+      <Filter>ps,vs</Filter>
+    </None>
+    <None Include="data\light.vs">
+      <Filter>ps,vs</Filter>
+    </None>
+    <None Include="data\texture.ps">
+      <Filter>ps,vs</Filter>
+    </None>
+    <None Include="data\font\font.ps">
+      <Filter>ps,vs</Filter>
+    </None>
+    <None Include="data\font\font.vs">
+      <Filter>ps,vs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Effects.fx">
+      <Filter>ps,vs</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
